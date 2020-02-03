@@ -6,9 +6,9 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const head = function(array) {
-  return array[0];
+const tail = function(array) {
+  return array.slice(1);
 };
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+const result = tail(["Hello", "Lighthouse", "Labs"]);
+assertEqual(result.toString(), ["Lighthouse", "Labs"].toString()); // => will always fail!

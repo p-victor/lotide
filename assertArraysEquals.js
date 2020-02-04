@@ -8,8 +8,8 @@ const eqArrays = function(arr1, arr2) {
   return true;
 };
 
-const assertArraysEquals = function(arr1, arr2) {
-  if (eqArrays(arr1, arr2)) {
+const assertArraysEquals = function(actual, expected) {
+  if (eqArrays(actual, expected)) {
     console.log(`🆗 Assertion passed ${actual} === ${expected}`);
   } else {
     console.log(`❌ Assertion failed ${actual} !== ${expected}`);

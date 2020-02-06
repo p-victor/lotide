@@ -31,5 +31,5 @@ const assertObjectEquals =  function(actual, expected) {
       }
 }
 
-assertObjectEquals({n: 3, s: "s"}, {n: 3, s: "so"});
+  assertObjectEquals({n: 3, s: "s"}, {n: 3, s: "so"});
 console.log(eqObjects({n: 3, s: "s"}, {a :"", s: "s", l: true}));

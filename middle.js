@@ -3,7 +3,6 @@ const middle = function(array) {
   let medianIndex = ((array.length + 1) / 2 - 1);
   let middleArr;
   if (isEven) {
-    console.log("been here")
     middleArr = array.slice(medianIndex, medianIndex + 2)
   } else {
     //console.log(array.slice(medianIndex, medianIndex + 1));

@@ -15,3 +15,5 @@ const letterPositions = function (string) {
 const isLetter = function(character) {
   return character.toLowerCase() != character.toUpperCase();
 }
+
+module.exports = letterPositions;

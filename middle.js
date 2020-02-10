@@ -5,7 +5,6 @@ const middle = function(array) {
   if (isEven) {
     middleArr = array.slice(medianIndex, medianIndex + 2)
   } else {
-    //console.log(array.slice(medianIndex, medianIndex + 1));
     middleArr = array.slice(medianIndex, medianIndex + 1)
   }
   return middleArr; 

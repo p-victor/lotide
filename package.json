@@ -1,7 +1,7 @@
 {
-  "name": "@username/lotide",
+  "name": "@victorpoirier/lotide",
   "version": "1.0.0",
-  "description": "Lotide project",
+  "description": "Lotide project is a clone of lodash made for education purposes.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/p-victor/lotide.git"
   },
-  "author": "",
+  "author": "Victor Poirier",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/p-victor/lotide/issues"
